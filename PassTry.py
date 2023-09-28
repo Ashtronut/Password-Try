@@ -14,6 +14,7 @@ def bruteforce_attack(password):
 
 password = input("Input the password to crack: ")
 attempts, guess = bruteforce_attack(password)
+print(f"Try to crack..")
 if guess:
     print(f"Password cracked in {attempts} attempts. The password is {guess}.")
 else:
